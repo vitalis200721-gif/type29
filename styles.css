@@ -1,0 +1,130 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background-image: url("https://wallpapers.com/images/high/aurora-sunset-aesthetic-anime-laptop-hutr6p0gjlle12kx.webp");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background: transparent;
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.about-section {
+  display: flex;
+  padding: 80px 14%;
+  gap: 80px;
+}
+
+.about-left {
+  position: relative;
+}
+
+.about-img {
+  width: 380px;
+  height: 520px;
+  object-fit: cover;
+}
+
+.years-box {
+  width: 140px;
+  height: 140px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.years-box h2 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.years-box p {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.about-right {
+  max-width: 450px;
+}
+
+.about-title {
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.about-right h2 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.about-right p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.about-right ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-right ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-right ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #00d251;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+.about-btn {
+  margin-top: 18px;
+  padding: 10px 30px;
+  border: 1px solid black;
+  background: transparent;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
